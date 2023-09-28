@@ -16,6 +16,7 @@ hide_streamlit_style = """
     footer {visibility: hidden;}
 </style>
 """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 feed = Block(name='Input')
 feed.add_input(name="Hello")
